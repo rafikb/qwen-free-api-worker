@@ -1,6 +1,6 @@
-const express = require('express');
-const fetch = require('node-fetch');
-const cors = require('cors');
+import express from 'express';
+import fetch from 'node-fetch';
+import cors from 'cors';
 
 // Config
 const app = express();
@@ -53,12 +53,11 @@ async function fetchWithRetry(url, options, retries = MAX_RETRIES) {
                 }
             }
             
-            return new Response(responseText, {
+            return {
                 status: response.status,
-                headers: {
-                    'Content-Type': contentType || 'application/json'
-                }
-            });
+                headers: { 'Content-Type': contentType || 'application/json' },
+                text: async () => responseText
+            };
         } catch (error) {
             lastError = error;
             if (i < retries - 1) {

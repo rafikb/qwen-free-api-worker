@@ -1,4 +1,4 @@
-Conversion attempt for aigem/qwen-free-api-worker to nodejs.
+Conversion attempt for [aigem/qwen-free-api-worker](https://github.com/aigem/qwen-free-api-worker) to nodejs.
 
 To run :
 

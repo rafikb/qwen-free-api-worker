@@ -50,3 +50,6 @@ build/
 # Miscellaneous
 *.tgz
 *.zip
+
+# github workflow and deployment
+.github

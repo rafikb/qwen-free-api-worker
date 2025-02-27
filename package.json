@@ -1,6 +1,7 @@
 {
   "name": "qwen-free-api-worker",
   "version": "1.0.0",
+  "type": "module",
   "description": "Conversion attempt for [aigem/qwen-free-api-worker](https://github.com/aigem/qwen-free-api-worker) to nodejs.",
   "main": "app.js",
   "scripts": {

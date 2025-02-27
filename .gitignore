@@ -51,5 +51,5 @@ build/
 *.tgz
 *.zip
 
-# github workflow and deployment
+# github workflow and deployment folder
 .github/

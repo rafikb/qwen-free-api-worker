@@ -1,10 +1,13 @@
-## About
-https://chat.qwenlm.ai 提供的免费api
+To run :
 
-对齐兼容openai 
+```bash
+npm init -y
+npm install express node-fetch@2 cors
+```
 
-视频教程https://www.bilibili.com/video/BV16scBePEyp/
+Start the server:
+```bash
+node index.js
+```
 
-
-也可以直接使用我部署的：【qwen.aigem.us.kg】
-使用方法参考视频
+The server will run on port 3000 by default or use the PORT environment variable if set.

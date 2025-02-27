@@ -52,4 +52,4 @@ build/
 *.zip
 
 # github workflow and deployment
-.github
+.github/
